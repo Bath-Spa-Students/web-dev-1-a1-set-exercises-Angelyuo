@@ -1,0 +1,21 @@
+* {
+    background-color: rgb(255, 249, 225);
+} /*Background color for the website*/
+body{
+    padding: 0%;
+}
+.img-style{
+    background-image: url(cheesemanakish.jpg);
+    background-image: url(cheesemanakish2.png);
+    background-image: url(cheesemanakish3.png);
+} /*Manakish photos*/
+h1.border {
+    border-style: dotted;
+    border-color: rgb(170, 150, 4);
+    background-color: rgb(255, 255, 252);
+  } 
+h2.border {
+    border-style: dotted;
+    border-color: rgb(170, 150, 4);
+    background-color: rgb(255, 255, 252);
+  } 
