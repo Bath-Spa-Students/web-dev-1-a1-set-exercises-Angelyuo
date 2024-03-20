@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(20, 0, 0);
+}
+
+h1.title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.photo {
+    text-align: center;
+}
+
+img.anatoliy {
+    border: 5px solid #770000;
+}
+
+img.antonio {
+    border: 5px solid #773600;
+}
+
+img.shuja {
+    border: 5px solid #320077;
+}
+
+.copyright {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    width: 1000px; 
+    margin: auto;
+}
+
+.copyright p {
+    display: inline-block;
+    width: 30%; 
+    margin: 0;
+}
