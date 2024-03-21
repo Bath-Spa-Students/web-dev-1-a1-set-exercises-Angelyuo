@@ -1,29 +1,29 @@
 body {
     background-color: rgb(20, 0, 0);
-}
+} /*Change background color*/
 
 h1.title {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     text-align: center;
-}
+} /*Change text color & position*/
 
 .photo {
     text-align: center;
-}
+} /*Change photo positions*/
 
 img.anatoliy {
     border: 5px solid #770000;
-}
+} /*Add photo frame*/
 
 img.antonio {
     border: 5px solid #773600;
-}
+} /*Add photo frame*/
 
 img.shuja {
     border: 5px solid #320077;
-}
+} /*Add photo frame*/
 
 .copyright {
     color: rgb(255, 255, 255);
@@ -32,10 +32,10 @@ img.shuja {
     text-align: center;
     width: 1000px; 
     margin: auto;
-}
+} /*Change text color & position*/
 
 .copyright p {
     display: inline-block;
     width: 30%; 
     margin: 0;
-}
+} /*Place three paragraphs into one line*/
