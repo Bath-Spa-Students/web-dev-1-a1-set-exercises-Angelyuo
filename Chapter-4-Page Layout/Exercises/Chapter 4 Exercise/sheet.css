@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+} /*Set body font to Arial*/
+
+h1 {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+} /*Set body font to Tahoma*/
+
+header {
+    background-color: #17072b;
+    color: white;
+    position: relative;
+    text-align: center;
+} 
+
+p.nav { /*Set multiple pargraphs in a single line*/
+    font-size: 30px;
+    display: inline-flex;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+div.main {
+    display: inline-flex;
+} /*To align two divs into the same line*/
+
+div.article {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.sidebar {
+    text-align: left;
+    background-color: #172d67;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+  ul li:before {
+    content: '\2013';
+    position: absolute;
+    margin-left: -15px;
+    margin-bottom: -15px;
+} /*Changing the content to '-'*/
+
+footer {
+    background-color: #8c15e9;
+    color: white;
+    position: relative;
+    text-align: center;
+}
