@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+
+        <script>
+            function calculation(event) {
+
+            event.preventDefault() // So that the page won't reset
+
+            // Saves the numbers inputted
+            let cpl = document.getElementById("costPerLitre").value;
+            let lp = document.getElementById("litresPurchased").value;
+
+	        let calculate = cpl * lp // Calculation formula
+      
+            document.getElementById("totalPrice").innerText = "Total price: $" + calculate; //Says the total price
+            }
+        </script>
+
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif; /* Change font */
+                position: relative;
+                text-align: center;
+                background-color: rgb(250, 244, 255);
+            }
+            /* Hover effects on the button */
+            input[type="submit"]:hover {
+   	            transition: all 0.3s ease; /* Smooth transition */
+                transform: scale(1.1); /* Increase button size when hovering */
+            }
+        </style>
+</head>
+<body>
+    <h1>Petrol Calculator</h1>
+
+    <form>
+    <label for="costPerLitre">Cost per litre:</label> <!--A field for the user the enter the cost of petrol per litre-->
+    <input type="text" id="costPerLitre" name="costPerLitre" value=1.72> <!--A default value of 1.72-->
+    <label for="litresPurchased">Litres purchased:</label> <!--A field for the user to enter the number of liters purchased-->
+    <input type="text" id="litresPurchased" name="litresPurchased" value=0> <!--A default value of 0-->
+    <br><br> <!--To place the calculate button on a different line-->
+    <input type="submit" value="Calculate" onclick="calculation(event)"> 
+    <!--A button that when clicked calculates the total cost of the petrol purchased-->
+    </form>
+
+    <p id="totalPrice"></p> <!--Displays the result to the screen-->
+</body>
+</html>
